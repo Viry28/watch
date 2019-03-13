@@ -1,9 +1,21 @@
+html {
+        font-size: 12px;
+    }
+
 border {
     font-family: 'cabinbold';
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'cabin_mediumregular';
+}
+
+
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 header {
     width: 100%;
@@ -30,6 +42,8 @@ header {
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
+    flex-flow: row wrap;
+    height: 100%;
 }
 
 nav {
@@ -42,6 +56,8 @@ flex-direction: row;
     flex-basis: 100%;
     justify-content: space-between;
     align-items: center;
+    flex: 0 1 100%;
+    height: 70px;
 }
 
 #logoNav {
@@ -63,7 +79,31 @@ flex-direction: row;
     text-decoration: none;
 }
 
-#menuDesktop a.buy {
+
+#contenedor-header {
+    flex: 0 1 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#relojHeader {
+    flex: 0 1 calc(100% - 1rem);
+}
+
+#txtreloj {
+    flex: 0 1 calc(100% - 1rem);
+    align-self: flex-start;
+    color: white;
+}
+
+#txtreloj h2 {
+    font-size: 2rem;
+}
+
+a.buy {
     width: 115px;
     height: 40px;
     border-radius: 25px;
@@ -79,4 +119,7 @@ flex-direction: row;
     background: -ms-linear-gradient(45deg, rgba(255, 223, 64, 1) 0%, rgba(255, 131, 89, 1) 100%);
     background: linear-gradient(45deg, rgba(255, 223, 64, 1) 0%, rgba(255, 131, 89, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdf40', endColorstr='#ff8359', GradientType=1);
+    text-decoration: none;
+    color: #3B3B3B;
 }
+

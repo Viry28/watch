@@ -1,0 +1,43 @@
+/*media query de celulares gama alta*/
+@media only screen and (min-width:680px) {
+    html {
+        font-size: 13px;
+    }
+
+}
+
+
+/*media query tablet*/
+@media only screen and (min-width:768px) {
+    html {
+        font-size: 14px;
+    }
+    #contenedor-header {
+    flex-flow: row wrap;
+}
+    #relojHeader {
+    flex: 0 1 calc(50% - 1rem);
+    order: 0;
+}
+
+#txtreloj {
+    flex: 0 1 calc(50% - 1rem);
+    order: 1;
+}
+}
+
+
+/*media query laptop*/
+@media only screen and (min-width:992px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+
+/*media query desktop*/
+@media only screen and (min-width:1200px){
+    html {
+        font-size: 16px;
+    }
+}
