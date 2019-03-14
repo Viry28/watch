@@ -12,6 +12,8 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+
+
 .img-responsive {
     max-width: 100%;
     display: block;
@@ -123,3 +125,130 @@ a.buy {
     color: #3B3B3B;
 }
 
+
+.contenedor-features {
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 100%;
+    margin: 2rem 0;
+}
+
+.serv-icon {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.boxFeature {
+    flex: 0 1 calc(100% - 1rem);
+    margin: 1rem 0;
+
+}
+.boxFeature h3{
+    font-family: 'cabin_mediumregular';
+    color: #707070;
+    text-align: center;
+
+}
+
+
+
+#features h2 {
+    flex: 0 1 100%;
+    color: #707070;
+    text-align: center;
+
+}
+
+#features p {
+    color: #707070;
+    text-align: center;
+}
+
+.full {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    padding: 3rem 0;
+}
+
+#product h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 6.5rem 0;
+    color: white;
+    flex-basis: 100%;
+    order: 2;
+}
+
+#product {
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    background: rgba(245,49,127,1);
+background: -moz-linear-gradient(top, rgba(245,49,127,1) 0%, rgba(255,125,110,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,49,127,1)), color-stop(100%, rgba(255,125,110,1)));
+background: -webkit-linear-gradient(top, rgba(245,49,127,1) 0%, rgba(255,125,110,1) 100%);
+background: -o-linear-gradient(top, rgba(245,49,127,1) 0%, rgba(255,125,110,1) 100%);
+background: -ms-linear-gradient(top, rgba(245,49,127,1) 0%, rgba(255,125,110,1) 100%);
+background: linear-gradient(to bottom, rgba(245,49,127,1) 0%, rgba(255,125,110,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5317f', endColorstr='#ff7d6e', GradientType=0 );
+}
+
+#product h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0;
+    color: white;
+}
+
+.imgProduct {
+    flex-basis: 100%;
+    order: 1;
+}
+
+.txtProduct {
+    flex-basis: 100%;
+    order: 3;
+    color: white;
+}
+
+.descriptionProduct {
+    flex-flow: row wrap;
+    flex: 0 1 100%;
+    justify-content: space-between;
+    align-content: space-around;
+    display: flex;
+}
+
+.iconProduct {
+    flex: 0 1 10%;
+    padding: 1rem;
+}
+
+.txtIcon {
+    flex: 0 1 80%;
+}
+
+.separador {
+    width: 100%;
+    height: auto;
+    padding: 7rem;
+}
+
+
+
+.cajaAbout {
+    flex: 0 1 calc(50% - 1rem);
+    align-self: center;
+}
+
+.cajaAbout h2 {
+    color: #707070;
+    padding:0 2rem ;
+}
+
+.cajaAbout p {
+    color: #707070;
+    padding:0 2rem;
+}

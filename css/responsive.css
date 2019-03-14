@@ -4,6 +4,10 @@
         font-size: 13px;
     }
 
+    .serv-icon {
+    width: 25%;
+}
+
 }
 
 
@@ -24,14 +28,40 @@
     flex: 0 1 calc(50% - 1rem);
     order: 1;
 }
+
+    .boxFeature {
+    flex: 0 1 calc(50% - 1rem);
+    margin: 1rem 0;
+
 }
 
+    .serv-icon {
+    width: 30%;
+}
+
+    .imgProduct {
+    flex:0 1  calc(50% - 1rem);
+        order: 2;
+}
+    .txtProduct {
+    flex:0 1  calc(50% - 1rem);
+    order: 3;
+}
+    #product h2{
+        order: 1;
+    }
+}
 
 /*media query laptop*/
 @media only screen and (min-width:992px) {
     html {
         font-size: 15px;
     }
+    .boxFeature {
+    flex: 0 1 calc(33% - 1rem);
+    margin: 1rem 0;
+
+}
 }
 
 
