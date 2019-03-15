@@ -1,3 +1,7 @@
+:root{
+    --colorIcono: #6ACBE0;
+}
+
 html {
         font-size: 12px;
     }
@@ -251,4 +255,114 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5317f', end
 .cajaAbout p {
     color: #707070;
     padding:0 2rem;
+}
+
+#products {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    background: rgba(104,89,234,1);
+background: -moz-linear-gradient(left, rgba(104,89,234,1) 0%, rgba(106,202,224,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(104,89,234,1)), color-stop(100%, rgba(106,202,224,1)));
+background: -webkit-linear-gradient(left, rgba(104,89,234,1) 0%, rgba(106,202,224,1) 100%);
+background: -o-linear-gradient(left, rgba(104,89,234,1) 0%, rgba(106,202,224,1) 100%);
+background: -ms-linear-gradient(left, rgba(104,89,234,1) 0%, rgba(106,202,224,1) 100%);
+background: linear-gradient(to right, rgba(104,89,234,1) 0%, rgba(106,202,224,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6859ea', endColorstr='#6acae0', GradientType=1 );
+}
+
+
+.title {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: white;
+}
+
+.descriptionTitle {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: white;
+}
+
+.cajaProduct {
+     flex-basis: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contenedor-products {
+    justify-content: space-around;
+}
+
+.btnProduct {
+    text-decoration: none;
+    width: 115px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    color: white;
+    margin: 0 auto;
+}
+
+.formIcon i {
+    font-size: 1.5rem;
+    color: var(--colorIcono);
+}
+
+.box50 {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contacto {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+}
+
+.row {
+    flex-basis: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.nombre {
+    display: flex;
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo {
+    flex: 0 1 70;
+    flex-basis: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formIcon {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formInput {
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 80%;
 }
